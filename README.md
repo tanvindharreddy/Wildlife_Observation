@@ -140,23 +140,15 @@ camera-stream URL, and local environment used by your implementation.
 
 ## Repository Structure
 
-A suggested structure for publishing the project is:
-
-``` text
-wildlife-observation-robot/
+```text
+.
+├── LICENSE
 ├── README.md
-├── python/
-│   ├── wildlife_detection.py
-│   └── vision_data.json
-├── matlab/
-│   └── rover_simulation.m
-├── models/
-│   └── best.pt
-├── results/
-│   ├── python_detection.png
-│   └── matlab_simulation.png
-└── docs/
-    └── project_presentation.pptx
+├── vision_data.json
+├── vision_to_matlab_wildlife_auto_search.py
+├── wildlife_best.pt
+├── wildlife_matlab_live.m
+└── yolo11n.pt
 ```
 
 This is a **suggested layout**, not a claim about the files currently
